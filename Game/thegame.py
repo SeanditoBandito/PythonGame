@@ -17,7 +17,6 @@ D10 = roll_d10()
 # Pick a random sword from the dictionary swords
 quest_sword = random.choice(list(swords.swords.keys()))
 
-
 # Print the owner value of the variable quest_sword
 print("You have been tasked with finding the " + quest_sword + " owned by " + swords.swords[quest_sword]["Owner"] + ".")
 sleep(2)
