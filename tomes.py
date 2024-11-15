@@ -1,3 +1,6 @@
+# Imports
+import sys
+import swords
 class tome:
     cover = 'leather'
     weight = '.33kg'
