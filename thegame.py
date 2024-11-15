@@ -26,3 +26,15 @@ print("You come across a tome that may hold the secret to finding the " + quest_
 sleep(2)
 print("Do you want to pick up the tome?")
 tome_decision = input("Yes or No: ")
+
+if tome_decision == "Yes":
+    print("You pick up the tome and open it.")
+    sleep(2)
+    print("The tome reads: " + tomes.tomes[quest_sword])
+    sleep(2)
+    print("You close the tome and continue on your journey.")
+    sleep(2)
+else:
+    print("You leave the tome and continue on your journey.")
+    sleep(2)
+
